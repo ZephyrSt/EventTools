@@ -8,6 +8,7 @@ public abstract class EventListener {
 
 	/**
 	 * 监听的事件的目标（的标识）
+	 * 
 	 */
 	private String destination;
 	
