@@ -3,8 +3,7 @@
 基于事件机制的工具。用于重构代码时解耦各个模块间的耦合代码
 
 示例:
-
-
+```
 public class AppTest {
 
 	private static final String PUB_LOGIN_SUCCESS = "pub:login:succ";
@@ -49,3 +48,4 @@ public class AppTest {
     	}
     }
 }
+```
