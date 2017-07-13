@@ -10,6 +10,7 @@ public class AppTest {
 	private static final String PUB_REGIST_SUCCESS = "pub:regist:succ";
 	
     public static void main(String[] args){
+    	
     	DemoEvents events = new DemoEvents();
     	
     	DemoService service = new DemoService();
