@@ -4,7 +4,9 @@
 
 示例:
 
+
 public class AppTest {
+
 	private static final String PUB_LOGIN_SUCCESS = "pub:login:succ";
 	private static final String PUB_REGIST_SUCCESS = "pub:regist:succ";
 	
