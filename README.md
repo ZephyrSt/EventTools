@@ -18,7 +18,7 @@ public class AppTest {
     	service.login();
     }
     
-    static class DemoEvents extends AbstractAnnotationEvents{
+    public static class DemoEvents extends AbstractAnnotationEvents{
     	
     	@Subscribe({PUB_REGIST_SUCCESS,PUB_LOGIN_SUCCESS})
     	public void giveIntegral(EventSource<String> source){
@@ -33,7 +33,7 @@ public class AppTest {
     	}
     }
     
-    static class DemoService{
+    public static class DemoService{
     	
     	public void regist(){
     		System.out.println("用户注册成功");
